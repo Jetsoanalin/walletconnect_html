@@ -7,7 +7,7 @@
  // Unpkg imports
 const Web3Modal = window.Web3Modal.default;
 const WalletConnectProvider = window.WalletConnectProvider.default;
-const EvmChains = window.EvmChains;
+const EvmChains = window.evmChains;
 const Fortmatic = window.Fortmatic;
 const ethers = window.ether
 
