@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>Web3modal example written in vanilla JavaScript and HTML</title>
+    <title>Simple vanilla JS example of Web3modal usage</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -12,13 +12,9 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h1>Web3modal example for vanille JavaScript and HTML</h1>
+          <h1>Web3modal vanilla JavaScript demo</h1>
 
           <p>No wallet connected. Connect wallet to show accounts and their ETH balances.</p>
-
-          <div class="alert alert-danger" id="alert-error-https" style="display: none">
-            You can run this example only over HTTPS connection.
-          </div>
 
           <div id="prepare">
             <button class="btn btn-primary" id="btn-connect">
@@ -63,12 +59,6 @@
 
           </div>
 
-          <br>
-
-          <div class="well">
-            <p class="text-muted">See also the <a href="https://web3modal.com/">TypeScript and React example application</a></p>
-          </div>
-
         </div>
       </div>
     </div>
@@ -94,10 +84,10 @@
 
     -->
 
-    <script type="text/javascript" src="https://unpkg.com/web3@1.2.11/dist/web3.min.js"></script>
-    <script type="text/javascript" src="https://unpkg.com/web3modal@1.9.0/dist/index.js"></script>
-    <script type="text/javascript" src="https://unpkg.com/evm-chains@0.2.0/dist/umd/index.min.js"></script>
-    <script type="text/javascript" src="https://unpkg.com/@walletconnect/web3-provider@1.2.1/dist/umd/index.min.js"></script>
+    <script src="https://unpkg.com/web3@latest/dist/web3.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/web3modal"></script>
+    <script type="text/javascript" src="https://unpkg.com/evm-chains/lib/index.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/@walletconnect/web3-provider"></script>
     <script type="text/javascript" src="https://unpkg.com/fortmatic@2.0.6/dist/fortmatic.js"></script>
 
     <!-- This is our example code -->
